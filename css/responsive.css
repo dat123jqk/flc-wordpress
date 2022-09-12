@@ -1,0 +1,539 @@
+@media screen and (max-width: 1600px) {
+    .wrap-title {
+        padding: 79px;
+    }
+}
+@media screen and (max-width: 1366px) {
+    .wrap-title p {
+        font-size: 18px;
+    }
+    .wrap-title p {
+        font-size: 14.5px;
+        margin: 0 auto;
+        width: 575px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        font-size: 13px;
+    }
+    #header img {
+        width: 240px;
+    }
+    .wrap-title p {
+        font-size: 13px;
+        padding: 0 45px;
+    }
+    #section-tongquan h3 {
+        font-size: 39px;
+    }
+    #section-tongquan p.sub-text {
+        padding-bottom: 30px;
+    }
+    #section-tongquan {
+        padding-bottom: 70px;
+    }
+    #section-tongquan ul.right-tongquan li {
+        padding-bottom: 4px;
+        margin-bottom: 4px;
+    }
+    #section-tongquan ul.right-tongquan li span.title-tongquan {
+        width: 205px;
+    }
+    #section-introBotanic .wrap-body {
+        margin-top: -140px;
+    }
+    #section-introBotanic .section-title {
+        height: 370px;
+    }
+    #section-introBotanic .wrap-title {
+        padding: 60px;
+    }
+    #section-botanic {
+        padding-top: 80px;
+    }
+    #section-botanic .right-text h3.title-bota {
+        font-size: 39px;
+    }
+    #section-botanic .right-text h3.sub-title-bota {
+        font-size: 30px;
+    }
+    #section-botanic .bota-wrap-tienich .chuthich-list {
+        top: 95px;
+    }
+    .right-text-botanic h3.title-bali {
+        font-size: 39px;
+    }
+   /* #section-baliforest .chuthich-bali {
+        top: 248px;
+    }*/
+    .right-text-botanic h3.subtitle-bali {
+        font-size: 30px;
+    }
+    .right-text-botanic h3.subtitle-bali {
+        padding-bottom: 13px;
+    }
+    #section-baliforest .chuthich-bali img {
+        width: 135px;
+        padding-bottom: 26px;
+    }
+    .chuthich-list h3 {
+        padding-top: 5px;
+    }
+
+    #section-palmVillage .wrap-box img {
+        margin-top: -240px;
+    }
+    #section-palmVillage .wrap-box {
+        padding-bottom: 130px;
+    }
+    #section-news {
+        padding-bottom: 70px;
+    }
+    #section-news h3.title-news {
+        padding-top: 75px;
+        padding-bottom: 160px;
+        font-size: 39px;
+    }
+    .palm-button h3 {
+        left: 399px;
+    }
+    #section-tienich .tienich img {
+        margin-top: -205px;
+    }
+}
+@media screen and (width: 1024px) {
+    .palm-button h3 {
+        top: 200px;
+        left: 403px;
+    }
+}
+@media screen and (max-width: 991px) {
+    body {
+        font-size: 12px;
+    }
+    button.navbar-toggler {
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        padding: 0;
+        outline: none;
+        border: 0;
+    }
+    button.navbar-toggler i {
+        color: #fff;
+        font-size: 28px;
+    }
+    #navbarMainMenu {
+        width: 60%;
+        text-align: left;
+        background-color: #f5f5f5;
+        position: fixed;
+        top: 0;
+        left: -60%;
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        padding: 10px 0px;
+        height: 100vh;
+        z-index: 999;
+        -webkit-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+    #navbarMainMenu.show {
+        left: 0px;
+        opacity: 1;
+        visibility: visible;
+    }
+    .main-menu .navbar-expand-lg .navbar-nav .nav-link {
+        color: #231f20;
+        border-bottom: 1px solid #d8d8d8;
+        line-height: 35px;
+    }
+    ul.navbar-nav {
+        width: 100%;
+        padding: 0px 20px;
+    }
+    i.close {
+        margin-right: 10px;
+    }
+    .navbar-nav .dropdown-menu {
+        border: 0;
+        background-color: whitesmoke;
+        padding-left: 20px;
+        padding: 0px 0px 0px 30px;
+    }
+    .dropdown-item {
+        text-transform: uppercase;
+        padding: 0;
+        color: #231f20;
+        border-bottom: 1px solid #d8d8d8;
+        line-height: 35px;
+        font-size: 13px;
+    }
+    .header {
+        min-height: auto;
+        padding-bottom: 10px;
+    }
+    .header.scroll {
+        padding-bottom: 0;
+    }
+    .header .navbar {
+        padding: 0 15px;
+    }
+    #header img {
+        width: 240px;
+    }
+    .wrap-title p {
+        font-size: 12px;
+        padding: 0 45px;
+    }
+    #section-tongquan h3 {
+        font-size: 39px;
+    }
+    #section-tongquan p.sub-text {
+        padding-bottom: 30px;
+    }
+    #section-tongquan {
+        padding-bottom: 70px;
+    }
+    #section-tongquan ul.right-tongquan li {
+        padding-bottom: 4px;
+        margin-bottom: 4px;
+    }
+    #section-tongquan ul.right-tongquan li span.title-tongquan {
+        width: 205px;
+    }
+    #section-introBotanic .wrap-body {
+        margin-top: -140px;
+    }
+    #section-introBotanic .section-title {
+        height: 370px;
+    }
+    #section-introBotanic .wrap-title {
+        padding: 60px;
+    }
+    #section-botanic {
+        padding-top: 80px;
+    }
+    #section-botanic .right-text h3.title-bota {
+        font-size: 29px;
+    }
+    #section-botanic .bota-wrap-tienich .bota-tienich-thumb {
+        width: 70%;
+    }
+    #section-botanic .right-text h3.sub-title-bota {
+        font-size: 20px;
+        padding-left: 130px;
+        padding-bottom: 6px;
+    }
+    #section-botanic .bota-wrap-tienich .chuthich-list {
+        top: 20px;
+        width: 30%;
+    }
+    .right-text-botanic h3.title-bali {
+        font-size: 29px;
+    }
+    #section-baliforest .chuthich-bali {
+        top: 140px;
+    }
+    .right-text-botanic h3.subtitle-bali {
+        font-size: 20px;
+        text-align: center;
+    }
+    .right-text-botanic h3.subtitle-bali {
+        padding-bottom: 13px;
+    }
+    #section-baliforest .chuthich-bali img {
+        width: 135px;
+        padding-bottom: 26px;
+    }
+    .chuthich-list h3 {
+        padding-top: 5px;
+    }
+
+    #section-palmVillage .wrap-box img {
+        margin-top: -240px;
+    }
+    #section-palmVillage .wrap-box {
+        padding-bottom: 100px;
+    }
+    #section-news {
+        padding-bottom: 70px;
+    }
+    #section-news h3.title-news {
+        padding-top: 75px;
+        padding-bottom: 100px;
+        font-size: 29px;
+    }
+    #section-news .box-title h3 {
+        font-size: 13px;
+    }
+    .palm-left h3.title-palm {
+        font-size: 29px;
+    }
+    .palm-left h3.subtitle-palm {
+        font-size: 20px;
+    }
+    .palm-right h3.title-palm {
+        font-size: 29px;
+    }
+    .palm-right h3.subtitle-palm {
+        font-size: 20px;
+    }
+    .palm-button h3 {
+        left: 278px;
+    }
+    #section-tienich .tienich img {
+        margin-top: -205px;
+    }
+    .palm-button {
+        padding-top: 414px;
+    }
+    .palm-button h3 {
+        top: 176px;
+    }
+    .form-title {
+        font-size: 20px;
+    }
+    .wrap-dangky {
+        padding-top: 80px;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 10.5px;
+    }
+    #section-tongquan h3 {
+        font-size: 29px;
+    }
+    #section-tongquan p.sub-text {
+        font-size: 16px;
+    }
+    #section-tongquan p.sub-text {
+        padding-bottom: 16px;
+    }
+    #section-tongquan ul.right-tongquan li span.title-tongquan {
+        width: 107px;
+        font-size: 10.5px;
+    }
+    #section-introBotanic .section-title {
+        height: 279px;
+    }
+    #section-introBotanic .wrap-title {
+        padding: 52px;
+    }
+    #section-introBotanic .wrap-title h3 {
+        font-size: 20px;
+    }
+    .wrap-title p {
+        width: 461px;
+    }
+    #section-introBotanic .wrap-body {
+        margin-top: -69px;
+    }
+    #section-botanic {
+        padding-top: 43px;
+    }
+    #section-baliforest .bando-bali {
+        padding-top: 34px;
+    }
+    .chuthich-list ul {
+        margin-right: 6px;
+    }
+    .list-unstyled span.number {
+        margin-right: 2px;
+    }
+    #section-baliforest .chuthich-bali img {
+        width: 124px;
+    }
+    #section-tienich .tienich img {
+        margin-top: -148px;
+    }
+    #section-tienich {
+        padding-bottom: 76px;
+    }
+    .footer {
+        padding-top: 60px;
+        padding-bottom: 58px;
+    }
+@media screen and (max-width: 480px) {
+    #section-introBotanic .section-title {
+        background: #fde700;
+        background-size: none;
+    }
+    .wrap-title p {
+        width: 360px;
+    }
+    #section-introBotanic .wrap-body img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    #section-introBotanic .wrap-body {
+        margin-top: 0px;
+    }
+    #section-introBotanic .wrap-body img {
+        padding-top: 10px;
+    }
+    #section-botanic .right-text h3.title-bota {
+        text-align: center;
+        padding-top: 20px;
+    }
+    #section-botanic .right-text h3.sub-title-bota {
+        text-align: center;
+        padding-left: 0px;
+    }
+    #section-botanic .body-bota {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .chuthich-list h3 {
+        font-size: 20px;
+    }
+    #section-botanic .bota-wrap-tienich .bota-tienich-thumb {
+        width: 100%;
+    }
+    #section-botanic .bota-wrap-tienich .chuthich-list {
+        width: 100%;
+        position: static;
+    }
+    #section-botanic {
+        padding-top: 0px;
+        padding-bottom: 235px;
+    }
+    .wrap-box img {
+        margin-top: -240px;
+    }
+    #section-baliforest .bando-bali {
+        width: 100%;
+    }
+    #section-baliforest .chuthich-bali {
+        width: 100%;
+        position: static;
+    }
+    #section-baliforest {
+        padding-bottom: 422px;
+    }
+    .palm-left {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .palm-right {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    #section-tienich .tienich img {
+        margin-top: -89px;
+    }
+    #section-news h3.title-news {
+        padding-top: 49px;
+        padding-bottom: 43px;
+    }
+    .palm-button {
+        padding-top: 584px;
+    }
+    .palm-button h3 {
+        left: 163px;
+        top: 253px;
+    }
+    .col-item .box-thumb img {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .box-thumb .box-title {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .col-item .box-desc {
+        padding-bottom: 20px;
+    }
+    #section-tongquan .right-tongquan {
+        padding-top: 20px;
+    }
+    ul.right-tongquan li span.title-tongquan {
+        width: 251px !important;
+        font-size: 13px !important;
+    }
+    #section-botanic .botanic-logo img {
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .wrap-title p {
+        width: 323px;
+    }
+    #section-tienich .tienich img {
+        margin-top: -69px;
+    }
+    .palm-button {
+        background-size: contain;
+    }
+    .palm-button h3 {
+        left: 107px;
+        top: 262px;
+    }
+    #section-introBotanic .wrap-title {
+        padding: 20px;
+    }
+    #section-baliforest {
+        padding-bottom: 390px;
+    }
+    #section-palmVillage .wrap-box img {
+        margin-top: -227px;
+    }
+    .wrap-box img {
+        margin-top: -191px;
+    }
+    #section-baliforest .chuthich-bali {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .right-text-botanic h3.title-bali {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    ul.right-tongquan li span.title-tongquan {
+        width: 160px !important;
+        font-size: 13px !important;
+    }
+    .wrap-title p {
+        width: 284px;
+    }
+    #section-palmVillage .wrap-box img {
+        margin-top: -188px;
+    }
+    #section-tienich {
+        padding-bottom: 37px !important;
+    }
+    #section-botanic {
+        padding-top: 0px;
+        padding-bottom: 178px;
+    }
+    .palm-button h3 {
+        left: 76px;
+        top: 264px;
+    }
+    .wrap-dangky {
+        padding-top: 0px;
+    }
+}
+@media screen and (width: 411px) {
+    .palm-button h3 {
+        left: 125px;
+        top: 259px;
+    }
+}
+@media screen and (width: 414px) {
+    .palm-button h3 {
+        left: 131px;
+        top: 260px;
+    }
+}

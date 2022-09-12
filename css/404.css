@@ -1,0 +1,38 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+.ie-404 {
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+}
+.ie-404 .title {
+    margin-bottom: 30px;
+}
+.ie-404 p {
+    color: #333;
+    margin-bottom: 10px;
+}
+h3.download {
+    color: #00bdea;
+    margin-top: 30px;
+}
+ul.browser-download {
+    list-style: none;
+    padding: 0;
+}
+ul.browser-download li {
+    float: left;
+    width: calc((100% - 10px)/3);
+    padding: 15px;
+    height: 90px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+ul.browser-download li:last-child {
+    margin-right: 0;
+}
+ul.browser-download li:hover {
+    border-color: #f58737;
+}
