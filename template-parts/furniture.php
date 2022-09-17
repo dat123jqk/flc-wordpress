@@ -1,6 +1,6 @@
 <?php
     /**
-     * Template Name: Page news
+     * Template Name: Page furniture
      * 
      * @package Is_theme_flc
      */
@@ -652,7 +652,5 @@
                 </div>
             </div>
         </section>
-        <!-- End Main Wrapper -->
-    
 <?php
 get_footer();

@@ -265,9 +265,6 @@ palm-button
 #section-palmVillage .wrap-box {
     padding-bottom: 268px;
 }
-#section-palmVillage .wrap-box img {
-    /* margin-top: -300px; */
-}
 .palm-left {
     width: 50%;
     float: left;
@@ -371,7 +368,6 @@ h3.title-palm span {
     padding-bottom: 100px;
     background: #003d28;
     color: #fff;
-    margin-top: 50rem;
 }
 .ft-logo {
     padding-bottom: 40px;
@@ -577,6 +573,11 @@ ol.breadcrumb {
     text-transform: uppercase;
 }
 
+.project-apartment{
+    padding-top: 1rem;
+    border-top: 1px solid #b1b1b1;
+}
+
 .apartment-heading{
     color: #422b38;
 }
@@ -609,6 +610,10 @@ ol.breadcrumb {
     display: flex;
     justify-content: space-between;
     margin: 2rem 0;
+}
+
+.image-apartment{
+    margin-bottom: 1rem;
 }
 
 .apartment-option-icon{
@@ -651,10 +656,6 @@ ol.breadcrumb {
 
 .project-apartment-list__item{
     line-height: 2rem;
-}
-
-.news-content{
-    height: 10rem;
 }
 
 .news-container{
@@ -713,8 +714,599 @@ ol.breadcrumb {
     display: flex;
 }
 
-.news-main-text{
-    font-size: 0.8rem;
+.news-main-list{
+    margin-left: 0rem;
     margin-top: 1rem;
 }
+
+.news-main-list__item--text{
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    display: block;
+    padding-left: 1rem;
+}
+
+.news-main-list__item{
+    display: flex;
+    padding-bottom: 0.8rem;
+}
+
+.news-main-list__item--image{
+    width: 6rem;
+}
+
+.news-main-list__item-one{
+    list-style-type: disc;
+    margin: 0 1.3rem;
+}
+
+.news-register{
+    border-radius: 1rem;
+    margin-top: -2.3rem;
+    border: 1px solid #c24646;
+}
+
+.fa-solid{
+    color: red;
+}
+
+.news-register{
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.news-register-icon__text{
+    color: red;
+    font-weight: 600;
+}
+
+.news-register-form{
+    display: flex;
+    justify-content: center;
+    padding-top: 0.2rem;
+    padding-bottom: 0.8rem;
+}
+
+.news-register-form__button{
+    background-color: red;
+}
+
+.news-register-form__button--link{
+    color: #fff;
+    font-weight: 600;
+}
+
+.news-people-title{
+    margin-top: 2rem;
+    color: #000;
+    background-color: #ad9797;
+    padding-top: 0.3rem;
+    padding-bottom: 0.1rem;
+    padding-left: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.news-people-title__text{
+    text-align: center;
+}
+
+.news-people-outstanding{
+    border: 1px solid #ebdada;
+}
+
+.news-people-outstanding__list{
+    margin-left: 1rem;
+}
+
+.news-people-outstanding__list--item{
+    display: flex;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.news-people-outstanding__list--item-image{
+    padding-right: 1rem;
+    width: 6rem;
+    height: 4rem;
+}
+
+.news-people-outstanding__list--item-text{
+    font-size: 0.8rem;
+}
+
+.news-market{
+    margin-left: -0.8rem;
+}
+
+.news-market-title{
+    background-color: #003d28;
+    width: 12rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    position: relative;
+}
+
+.news-market-title--text{
+    color: #fff;
+    text-align: center;
+}
+
+.news-market-pseudo::before{
+    content: "";
+    background-color:#003d28;
+    position: absolute;
+    width: 47.5rem;
+    height: 0.2rem;
+    margin-top: -0.5rem;
+}
+
+.news-market-info{
+    display: flex;
+}
+
+.news-market-info__details--list{
+    margin-left: 0rem;
+}
+
+.news-market-info__details--list__item{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.news-market-info__details--list__item--image{
+    width: 8rem;
+    height: 5rem;
+    padding-right: 1rem;
+}
+
+.news-market-info__details--list__item--text{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.news-analysis{
+    margin-left: -0.8rem;
+}
+
+.news-analysis-title{
+    background-color: #003d28;
+    width: 18rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    position: relative;
+}
+
+.news-analysis-title--text{
+    color: #fff;
+    text-align: center;
+}
+
+.news-analysis-pseudo::before{
+    content: "";
+    background-color:#003d28;
+    position: absolute;
+    width: 47.5rem;
+    height: 0.2rem;
+    margin-top: -0.5rem;
+}
+
+.news-analysis-info{
+    display: flex;
+}
+
+.news-analysis-info__details--list{
+    margin-left: 0rem;
+}
+
+.news-analysis-info__details--list__item{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.news-analysis-info__details--list__item--image{
+    width: 8rem;
+    height: 5rem;
+    padding-right: 1rem;
+}
+
+.news-analysis-info__details--list__item--text{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.news-zoning{
+    margin-left: -0.8rem;
+}
+
+.news-zoning-title{
+    background-color: #003d28;
+    width: 18rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    position: relative;
+}
+
+.news-zoning-title--text{
+    color: #fff;
+    text-align: center;
+}
+
+.news-zoning-pseudo::before{
+    content: "";
+    background-color:#003d28;
+    position: absolute;
+    width: 47.5rem;
+    height: 0.2rem;
+    margin-top: -0.5rem;
+}
+
+.news-zoning-info{
+    display: flex;
+}
+
+.news-zoning-info__details--list{
+    margin-left: 0rem;
+}
+
+.news-zoning-info__details--list__item{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.news-zoning-info__details--list__item--image{
+    width: 8rem;
+    height: 5rem;
+    padding-right: 1rem;
+}
+
+.news-zoning-info__details--list__item--text{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.news-finance{
+    margin-left: -0.8rem;
+}
+
+.news-finance-title{
+    background-color: #003d28;
+    width: 10rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    position: relative;
+}
+
+.news-finance-title--text{
+    color: #fff;
+    text-align: center;
+}
+
+.news-finance-pseudo::before{
+    content: "";
+    background-color:#003d28;
+    position: absolute;
+    width: 47.5rem;
+    height: 0.2rem;
+    margin-top: -0.5rem;
+}
+
+.news-finance-info{
+    display: flex;
+}
+
+.news-finance-info__details--list{
+    margin-left: 0rem;
+}
+
+.news-finance-info__details--list__item{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.news-finance-info__details--list__item--image{
+    width: 8rem;
+    height: 5rem;
+    padding-right: 1rem;
+}
+
+.news-finance-info__details--list__item--text{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+.news-chart{
+    margin-left: -0.8rem;
+}
+
+.news-chart-title{
+    background-color: #003d28;
+    width: 10rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    position: relative;
+}
+
+.news-chart-title--text{
+    color: #fff;
+    text-align: center;
+}
+
+.news-chart-pseudo::before{
+    content: "";
+    background-color:#003d28;
+    position: absolute;
+    width: 47.5rem;
+    height: 0.2rem;
+    margin-top: -0.5rem;
+}
+
+.news-chart-info{
+    display: flex;
+}
+
+.news-chart-info__details--list{
+    margin-left: 0rem;
+}
+
+.news-chart-info__details--list__item{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.news-chart-info__details--list__item--image{
+    width: 8rem;
+    height: 5rem;
+    padding-right: 1rem;
+}
+
+.news-chart-info__details--list__item--text{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.news-province{
+    margin-top: -2.6rem;
+}
+
+.news-province-title{
+    margin-top: 2rem;
+    color: #000;
+    background-color: #ad9797;
+    padding-top: 0.3rem;
+    padding-bottom: 0.1rem;
+    padding-left: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.news-province-title__text{
+    text-align: center;
+}
+
+.news-province-outstanding{
+    border: 1px solid #ebdada;
+}
+
+.news-province-outstanding__list{
+    margin-left: 2.4rem;
+}
+
+.news-province-outstanding__list--item{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    display: inline-block; 
+}
+
+.news-province-outstanding__list--item-image{
+    padding-right: 1rem;
+    width: 9rem;
+    height: 5rem;
+}
+
+.news-province-outstanding__list--item-text{
+    font-size: 1rem;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+}
+
+.news-care{
+    margin-top: -2.6rem;
+}
+
+.news-care-title{
+    margin-top: 2rem;
+    color: #000;
+    background-color: #ad9797;
+    padding-top: 0.3rem;
+    padding-bottom: 0.1rem;
+    padding-left: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.news-care-title__text{
+    text-align: center;
+}
+
+.news-care-outstanding{
+    border: 1px solid #ebdada;
+}
+
+.news-care-outstanding__list{
+    margin-left: 2.4rem;
+}
+
+.news-care-outstanding__list--item{
+    list-style: disc;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    display: inline-block; 
+}
+
+.news-care-outstanding__list--item-text{
+    font-size: 1rem;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+}
+
+.news-care-outstanding__button{
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    width: 100%;
+}
+
+.news-care-outstanding__button--text{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: red;
+}
+
+
+.news-utilities{
+    margin-top: -2rem;
+}
+
+.news-utilities-title{
+    margin-top: 2rem;
+    color: #000;
+    background-color: #ad9797;
+    padding-top: 0.3rem;
+    padding-bottom: 0.1rem;
+    padding-left: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.news-utilities-title__text{
+    text-align: center;
+}
+
+.news-utilities-outstanding{
+    border: 1px solid #ebdada;
+}
+
+.news-utilities-outstanding__list{
+    margin-left: 1rem;
+}
+
+.news-utilities-outstanding__list--item{
+    display: flex;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.news-utilities-outstanding__list--item-image{
+    padding-right: 1rem;
+    width: 4rem;
+    height: 3rem;
+}
+
+.news-utilities-outstanding__list--item-text{
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.exterior-details-list{
+    margin-left: 0rem;
+    /* border-top: 1px solid #003d28; */
+    padding-bottom: 1rem;
+}
+
+.exterior-details-list__item{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.exterior-details-list__item-image{
+    width: 16rem;
+    padding-right: 1rem;
+}
+
+.exterior-details-list__item-title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.exterior-details-list__item-time{
+    color: #3f9b6e;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
