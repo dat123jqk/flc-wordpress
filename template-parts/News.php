@@ -653,6 +653,108 @@
             </div>
         </section>
         <!-- End Main Wrapper -->
+
+        <section>
+            <div class="container">
+                <div class="list-all">
+                    <div class="col-lg-3">
+                        <div class="list-all-much">
+                            <ul class="list-all-much__list">
+                            <?php 
+                            $args = array('numberposts' => 8, 'category' => 42);
+                            $custom_posts = get_posts($args);
+                            foreach($custom_posts as $post): setup_postdata($post);
+                            ?>
+                            <li class="list-all-much__list-item">
+                                <h5 class="list-all-much__list-item--title">
+                                    <?php the_title(); ?>
+                                </h5>
+                                <span class="list-all-much__list-item--desc">
+                                    <?php echo get_the_excerpt(); ?>
+                                </span>
+                            </li>
+                            <?php 
+                            endforeach;
+                            wp_reset_postdata();
+                            ?> 
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="list-all-much">
+                            <ul class="list-all-much__list">
+                            <?php 
+                            $args = array('numberposts' => 8, 'category' => 43);
+                            $custom_posts = get_posts($args);
+                            foreach($custom_posts as $post): setup_postdata($post);
+                            ?>
+                            <li class="list-all-much__list-item">
+                                <h5 class="list-all-much__list-item--title">
+                                    <?php the_title(); ?>
+                                </h5>
+                                <span class="list-all-much__list-item--desc">
+                                    <?php echo get_the_excerpt(); ?>
+                                </span>
+                            </li>
+                            <?php 
+                            endforeach;
+                            wp_reset_postdata();
+                            ?> 
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="list-all-much">
+                            <ul class="list-all-much__list">
+                            <?php 
+                            $args = array('numberposts' => 8, 'category' => 44);
+                            $custom_posts = get_posts($args);
+                            foreach($custom_posts as $post): setup_postdata($post);
+                            ?>
+                            <li class="list-all-much__list-item">
+                                <h5 class="list-all-much__list-item--title">
+                                    <?php the_title(); ?>
+                                </h5>
+                                <span class="list-all-much__list-item--desc">
+                                    <?php echo get_the_excerpt(); ?>
+                                </span>
+                            </li>
+                            <?php 
+                            endforeach;
+                            wp_reset_postdata();
+                            ?> 
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="list-all-much">
+                            <ul class="list-all-much__list">
+                            <?php 
+                            $args = array('numberposts' => 10, 'category' => 45);
+                            $custom_posts = get_posts($args);
+                            foreach($custom_posts as $post): setup_postdata($post);
+                            ?>
+                            <li class="list-all-much__list-item">
+                                <h5 class="list-all-much__list-item--title">
+                                    <?php the_title(); ?>
+                                </h5>
+                                <span class="list-all-much__list-item--desc">
+                                    <?php echo get_the_excerpt(); ?>
+                                </span>
+                            </li>
+                            <?php 
+                            endforeach;
+                            wp_reset_postdata();
+                            ?> 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     
 <?php
 get_footer();

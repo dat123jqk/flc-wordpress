@@ -8,7 +8,7 @@
 ?>
     <section id="detail-banner" class="banner detail-banner" style="background-image: url('<?php bloginfo("template_directory");?>/images/bg-archive.png')">
             <div class="banner-info">
-                <h1>Tin tức nổi bật</h1>
+                <h1>Tin tức nội thất</h1>
                 <ul class="list-inline post-info">
                     <li class="list-inline-item user">
                         <i class="far fa-user"></i>
@@ -51,13 +51,13 @@
                 <div class="row">
                     <div class="news-details">
                         <div class="news-details-title">
-                            <h5 class="news-details-title__text"> TIN TỨC BẤT ĐỘNG SẢN - TIN NỔI BẬT</h5>
+                            <h5 class="news-details-title__text"> NỘI THẤT - TIN NỔI BẬT</h5>
                         </div>
                         <div class="news-details-content">
                             <div class="col-md-8 news-details-content__main">
                                 <div class="col-md-6">
                                 <?php 
-                                $args = array('numberposts' => 6, 'category' => 19);
+                                $args = array('numberposts' => 6, 'category' => 50);
                                 $custom_posts = get_posts($args);
                                 foreach($custom_posts as $post): setup_postdata($post);
                                 $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'thumbnail');
@@ -70,7 +70,7 @@
                                             <h6 class="apartment-heading"><?php echo get_the_excerpt(); ?></h6>
                                         </a>
                                         <span>
-                                        Những thay đổi lớn do ảnh hưởng từ đại dịch Covid - 19, cùng những hệ quả từ biến đổi khí hậu, ô nhiễm môi trường… đã khiến thế giới phải tái định nghĩa khái niệm chăm sóc sức khỏe.Chỉ riêng với du lịch, lĩnh vực này đã có sự chuyển biến đáng kể sau đại dịch. Thay vì du lịch trải nghiệm thông thường như trước, xu hướng quan tâm đến du lịch y tế ngày càng phổ biến khi tốc độ tăng trưởng kép của thị trường du lịch này lên đến 11,7% và đạt 35,77 tỷ USD trong năm 2022
+                                        Một trong những phương án trang trí hoặc cải tạo không gian tiếp khách hiệu quả là sử dụng gạch ốp tường phòng khách. Các mẫu gạch với đa dạng màu sắc, hoa văn, phối màu ăn nhập không chỉ tạo nên một diện mạo mới cho căn phòng mà còn bảo vệ rất tốt cho phần tường nhà.
                                         </span>
                                     </div>
                                     
@@ -82,7 +82,7 @@
                                 <div class="news-main">
                                     <ul class="news-main-list">
                                         <?php 
-                                        $args = array('numberposts' => 6, 'category' => 20);
+                                        $args = array('numberposts' => 6, 'category' => 51);
                                         $custom_posts = get_posts($args);
                                         foreach($custom_posts as $post): setup_postdata($post);
                                         $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'thumbnail');
@@ -101,7 +101,7 @@
                                         ?> 
 
                                         <?php 
-                                        $args = array('numberposts' => 6, 'category' => 21);
+                                        $args = array('numberposts' => 6, 'category' => 52);
                                         $custom_posts = get_posts($args);
                                         foreach($custom_posts as $post): setup_postdata($post);
                                         $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'thumbnail');
@@ -180,7 +180,7 @@
                 <div class="">
                     <div class="news-market">
                         <div class="news-market-title">
-                            <h5 class="news-market-title--text"> TIN THỊ TRƯỜNG</h5>
+                            <h5 class="news-market-title--text"> PHÒNG NGỦ </h5>
                         </div>
                         <div class="news-market-pseudo">
                         </div>
@@ -189,7 +189,7 @@
                                 <div class="col-md-6 news-market-info__details">
                                     <ul class="news-market-info__details--list">
                                     <?php 
-                                    $args = array('numberposts' => 6, 'category' => 23);
+                                    $args = array('numberposts' => 6, 'category' => 53);
                                     $custom_posts = get_posts($args);
                                     foreach($custom_posts as $post): setup_postdata($post);
                                     $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'thumbnail');
@@ -202,7 +202,7 @@
                                                 </span>
                                             </a>
                                         </li>
-                                        <span>Căn hộ Hà Nội tăng giá mạnh là thực tế đã kéo dài khoảng 3 năm nay và có xu hướng tăng mạnh hơn từ năm 2021 đến nay. “Ăn theo” đà tăng giá, nhiều chủ nhà đã đưa ra những mức giá chào bán cao và liên tục tăng giá trong thời gian ngắn khiến thị trường “loạn giá”. Trong khi đó, người có nhu cầu thực thì ngày càng khó khăn trong việc tiếp cận nhà ở.</span>
+                                        <span>Nếu không may sở hữu một ngôi nhà có phòng khách vừa hẹp vừa sâu tựa như hành lang hay con hẻm nhỏ thì bạn cũng đừng quá lo lắng. Chỉ cần áp dụng một vài thủ thuật đánh lừa thị giác nhằm mở rộng không gian dưới đây, bạn sẽ không còn cảm giác như mình đang đứng trước một con hẻm sâu hun hút.</span>
                                     <?php 
                                     endforeach;
                                     wp_reset_postdata();
@@ -212,7 +212,7 @@
                                 <div class="col-md-6 news-market-info__details">
                                     <ul class="news-market-info__details--list">
                                     <?php 
-                                    $args = array('numberposts' => 6, 'category' => 24);
+                                    $args = array('numberposts' => 6, 'category' => 54);
                                     $custom_posts = get_posts($args);
                                     foreach($custom_posts as $post): setup_postdata($post);
                                     $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'thumbnail');
@@ -231,7 +231,7 @@
                                     ?> 
                                     
                                     <?php 
-                                    $args = array('numberposts' => 6, 'category' => 25);
+                                    $args = array('numberposts' => 6, 'category' => 73);
                                     $custom_posts = get_posts($args);
                                     foreach($custom_posts as $post): setup_postdata($post);
                                     ?>
@@ -286,7 +286,7 @@
     
                     <div class="news-analysis">
                         <div class="news-analysis-title">
-                            <h5 class="news-analysis-title--text"> PHÂN TÍCH - NHẬN ĐỊNH</h5>
+                            <h5 class="news-analysis-title--text"> TOÀN CẢNH NGÔI NHÀ</h5>
                         </div>
                         <div class="news-analysis-pseudo">
                         </div>
@@ -296,7 +296,7 @@
                                 <div class="col-md-6 news-analysis-info__details">
                                     <ul class="news-analysis-info__details--list">
                                     <?php 
-                                    $args = array('numberposts' => 6, 'category' => 26);
+                                    $args = array('numberposts' => 6, 'category' => 57);
                                     $custom_posts = get_posts($args);
                                     foreach($custom_posts as $post): setup_postdata($post);
                                     $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'thumbnail');
@@ -309,7 +309,7 @@
                                                 </span>
                                             </a>
                                         </li>
-                                        <span>Tại tọa đàm: “Phát triển nguồn vốn cho bất động sản: Dư địa và gợi ý các giải pháp bền vững” do Tạp chí Điện tử Doanh nhân Việt Nam phối hợp với vietnambiz.vn và Vietnammoi.vn tổ chức, thực trạng các doanh nghiệp bất động sản đối mặt với hàng loạt khó khăn do thiếu vốn gây ra được nêu bật. Các giải pháp căn cơ, gốc rễ vấn đề về khơi thông nguồn vốn cho thị trường bất động sản đã được các chuyên gia đưa ra và thảo luận</span>
+                                        <span>Xu hướng thiết kế nội thất 2022 sẽ hướng tới việc đưa các yếu tố thiên nhiên vào trong không gian sống, cấu trúc lại các khu vực công năng cho phù hợp với nhu cầu làm việc tại nhà và mua sắm nội thất, đồ trang trí một cách có chủ đích hơn.</span>
                                     <?php 
                                     endforeach;
                                     wp_reset_postdata();
@@ -319,7 +319,7 @@
                                 <div class="col-md-6 news-analysis-info__details">
                                     <ul class="news-analysis-info__details--list">
                                     <?php 
-                                    $args = array('numberposts' => 6, 'category' => 27);
+                                    $args = array('numberposts' => 6, 'category' => 58);
                                     $custom_posts = get_posts($args);
                                     foreach($custom_posts as $post): setup_postdata($post);
                                     $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'thumbnail');
@@ -338,7 +338,7 @@
                                     ?> 
                                     
                                     <?php 
-                                    $args = array('numberposts' => 6, 'category' => 28);
+                                    $args = array('numberposts' => 6, 'category' => 59);
                                     $custom_posts = get_posts($args);
                                     foreach($custom_posts as $post): setup_postdata($post);
                                     ?>
@@ -397,7 +397,7 @@
     
                     <div class="news-zoning">
                         <div class="news-zoning-title">
-                            <h5 class="news-zoning-title--text"> QUY HOẠCH - PHÁP LÝ</h5>
+                            <h5 class="news-zoning-title--text"> PHÒNG KHÁCH</h5>
                         </div>
                         <div class="news-zoning-pseudo">
                         </div>
@@ -407,7 +407,7 @@
                                 <div class="col-md-6 news-zoning-info__details">
                                     <ul class="news-zoning-info__details--list">
                                     <?php 
-                                    $args = array('numberposts' => 6, 'category' => 29);
+                                    $args = array('numberposts' => 6, 'category' => 60);
                                     $custom_posts = get_posts($args);
                                     foreach($custom_posts as $post): setup_postdata($post);
                                     $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'thumbnail');
@@ -420,7 +420,7 @@
                                                 </span>
                                             </a>
                                         </li>
-                                        <span>Chuyển nhượng là việc chuyển quyền sở hữu hoặc sở hữu các loại tài sản hợp pháp, bao gồm cả bất động sản sang cho cá nhân, tổ chức nào đó theo thỏa thuận. Thỏa thuận này thường sẽ được lưu dưới dạng hợp đồng.</span>
+                                        <span>Nếu không may sở hữu một ngôi nhà có phòng khách vừa hẹp vừa sâu tựa như hành lang hay con hẻm nhỏ thì bạn cũng đừng quá lo lắng. Chỉ cần áp dụng một vài thủ thuật đánh lừa thị giác nhằm mở rộng không gian dưới đây, bạn sẽ không còn cảm giác như mình đang đứng trước một con hẻm sâu hun hút.</span>
                                     <?php 
                                     endforeach;
                                     wp_reset_postdata();
@@ -430,7 +430,7 @@
                                 <div class="col-md-6 news-zoning-info__details">
                                     <ul class="news-zoning-info__details--list">
                                     <?php 
-                                    $args = array('numberposts' => 6, 'category' => 30);
+                                    $args = array('numberposts' => 6, 'category' => 61);
                                     $custom_posts = get_posts($args);
                                     foreach($custom_posts as $post): setup_postdata($post);
                                     $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'thumbnail');
@@ -449,7 +449,7 @@
                                     ?> 
                                     
                                     <?php 
-                                    $args = array('numberposts' => 6, 'category' => 31);
+                                    $args = array('numberposts' => 6, 'category' => 62);
                                     $custom_posts = get_posts($args);
                                     foreach($custom_posts as $post): setup_postdata($post);
                                     ?>
@@ -502,7 +502,7 @@
     
                     <div class="news-finance">
                         <div class="news-finance-title">
-                            <h5 class="news-finance-title--text">TÀI CHÍNH</h5>
+                            <h5 class="news-finance-title--text">PHÒNG BẾP</h5>
                         </div>
                         <div class="news-finance-pseudo">
                         </div>
@@ -512,7 +512,7 @@
                                 <div class="col-md-6 news-finance-info__details">
                                     <ul class="news-finance-info__details--list">
                                     <?php 
-                                    $args = array('numberposts' => 6, 'category' => 32);
+                                    $args = array('numberposts' => 6, 'category' => 64);
                                     $custom_posts = get_posts($args);
                                     foreach($custom_posts as $post): setup_postdata($post);
                                     $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'thumbnail');
@@ -525,7 +525,7 @@
                                                 </span>
                                             </a>
                                         </li>
-                                        <span>Dù lựa chọn hình thức vay tín chấp hay thế chấp thì khách hàng luôn cần chứng minh thu nhập khi vay ngân hàng. Dưới đây là 6 cách chứng minh thu nhập khi vay ngân hàng phổ biến nhất.</span>
+                                        <span>Nguyên tắc tam giác hữu dụng đề cập đến cách bố trí tủ lạnh, bồn rửa, bếp nấu sao cho khoa học, hợp lý, giúp tối ưu hóa quá trình thao tác, giảm công sức của người nội trợ trong căn bếp.</span>
                                     <?php 
                                     endforeach;
                                     wp_reset_postdata();
@@ -535,7 +535,7 @@
                                 <div class="col-md-6 news-finance-info__details">
                                     <ul class="news-finance-info__details--list">
                                     <?php 
-                                    $args = array('numberposts' => 6, 'category' => 33);
+                                    $args = array('numberposts' => 6, 'category' => 65);
                                     $custom_posts = get_posts($args);
                                     foreach($custom_posts as $post): setup_postdata($post);
                                     $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'thumbnail');
@@ -554,7 +554,7 @@
                                     ?> 
                                     
                                     <?php 
-                                    $args = array('numberposts' => 6, 'category' => 34);
+                                    $args = array('numberposts' => 6, 'category' => 71);
                                     $custom_posts = get_posts($args);
                                     foreach($custom_posts as $post): setup_postdata($post);
                                     ?>
@@ -577,7 +577,7 @@
     
                     <div class="news-chart">
                         <div class="news-chart-title">
-                            <h5 class="news-chart-title--text">BIỂU ĐỒ GIÁ</h5>
+                            <h5 class="news-chart-title--text">PHÒNG TẮM</h5>
                         </div>
                         <div class="news-chart-pseudo">
                         </div>
@@ -587,7 +587,7 @@
                                 <div class="col-md-6 news-chart-info__details">
                                     <ul class="news-chart-info__details--list">
                                     <?php 
-                                    $args = array('numberposts' => 6, 'category' => 35);
+                                    $args = array('numberposts' => 6, 'category' => 67);
                                     $custom_posts = get_posts($args);
                                     foreach($custom_posts as $post): setup_postdata($post);
                                     $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'thumbnail');
@@ -600,7 +600,7 @@
                                                 </span>
                                             </a>
                                         </li>
-                                        <span>Giá bán theo tin đăng nhiều loại hình bất động sản tại Hà Nội đã chững lại từ tháng 5 sau khi có thời gian tăng tốc vào tháng 3 và tháng 4. Riêng giá đất, đất nền dự án vẫn tăng thêm 2-5% mỗi tháng.</span>
+                                        <span>Chỉ với vài thay đổi nhỏ, không quá tốn kém trong cách sắp xếp, bày trí đồ đạc, bạn có thể khiến phòng tắm nhà mình như được “lột xác”, đẹp và tiện nghi chẳng thua kém khách sạng hạng sang.</span>
                                     <?php 
                                     endforeach;
                                     wp_reset_postdata();
@@ -610,7 +610,7 @@
                                 <div class="col-md-6 news-chart-info__details">
                                     <ul class="news-chart-info__details--list">
                                     <?php 
-                                    $args = array('numberposts' => 6, 'category' => 36);
+                                    $args = array('numberposts' => 6, 'category' => 68);
                                     $custom_posts = get_posts($args);
                                     foreach($custom_posts as $post): setup_postdata($post);
                                     $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'thumbnail');
@@ -629,7 +629,7 @@
                                     ?> 
                                     
                                     <?php 
-                                    $args = array('numberposts' => 6, 'category' => 37);
+                                    $args = array('numberposts' => 6, 'category' => 72);
                                     $custom_posts = get_posts($args);
                                     foreach($custom_posts as $post): setup_postdata($post);
                                     ?>

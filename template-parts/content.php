@@ -12,13 +12,13 @@
 
 <section id="archive-banner" class="banner archive-banner" style="background-image: url('<?php bloginfo("template_directory");?>/images/bg-archive.png')">
         <div class="banner-info">
-            <h1>Bất động sản</h1>
+            <!-- <h1>Bất động sản</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Tin tức</li>
                 </ol>
-            </nav>
+            </nav> -->
         </div>
     </section>
     <!-- End banner -->    
@@ -26,12 +26,12 @@
         <section class="main-content">
             <div class="container">
                 <div class="wrap-content">
-                    <div class="title-real">
+                    <!-- <div class="title-real">
                         <h1 class="title-real-estate">-- Bất động sản toàn quốc --</h1>
-                    </div>
+                    </div> -->
                     <div class="row">
                         <!-- Main Content -->
-                        <div class="col-md-9">
+                        <!-- <div class="col-md-9">
                             <!-- Item -->
                             <div class="post-item">
                                 <?php the_content(); ?>
@@ -178,11 +178,11 @@
                                 </div>
                             </div> -->
                             <!-- End Item -->
-                        </div>
+                        </div> 
                         <!-- End Main Content -->
 
                         <!-- Sidebar -->
-                        <div class="col-md-3 price">
+                        <!-- <div class="col-md-3 price">
                             <div class="price-heading">
                                 <h3 class="price-heading-title">Lọc theo giá</h3>
                                 <div class="price-about-details">
@@ -280,12 +280,12 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- End Sidebar -->
                     </div>
                 </div>
 
-                <div class="project-apartment">
+                <!-- <div class="project-apartment">
                     <div class="row">
                         <div class="col-md-3">
                             <ul class="project-apartment-list">
@@ -372,7 +372,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
         <!-- End Main Wrapper -->

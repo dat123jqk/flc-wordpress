@@ -536,7 +536,7 @@ ol.breadcrumb {
 .price-apartment-title,
 .price-outstanding-title{
     text-align: center;
-    background-color: #a5a5c1;
+    background-color: #e99c9c;
     border-top-left-radius:1rem;
 }
 
@@ -673,7 +673,7 @@ ol.breadcrumb {
 }
 
 .news-container-form__input{
-    padding: 0.6rem 6rem 0.6rem 1rem !important;
+    padding: 0.5rem 6rem 0.5rem 1rem !important;
 }
 
 .news-button{
@@ -1245,65 +1245,376 @@ ol.breadcrumb {
     display: block;
 }
 
+.list-all{
+    display: flex;
+    border-top: 1px solid #ddbdbd;
+    padding-top: 2rem;
+}
 
+.list-all-much__list{
+    margin-left: 0rem;
+}
 
+.register-exterior,
+.care-exterior{
+    margin-top: 2rem;
+}
 
+.news-exterior-outstanding__list--item{
+    display: flex;
+}
 
+.utilities-exterior{
+    margin-top: 0rem;
+}
 
+.exterior-numerical-list{
+    display: flex;
+    justify-content: center;
+}
 
+.exterior-numerical-list__item-number-backgr{
+    background-color: #a34646;
+    color: #fff;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
 
+.exterior-numerical-list__item-number{
+    padding: 0.5rem;
+}
 
+.exterior-numerical-list__item{
+    padding: 0.5rem;
+}
 
+.fa-chevron-right{
+    padding-top: 1.2rem;
+    font-size: 1.2rem;
+}
 
+.all-estate{
+    display: flex;
+}
 
+.Characteristics{
+    margin-top: 2rem;
+}
 
+.Characteristics-title{
+    text-transform: uppercase;
+    border: 2px solid #f2f2f2;
+    width: 18rem;
+    text-align: center;
+    padding: 0.2rem 0.2rem;
+    color: #354240;
+    background: #e99c9c;
+}
 
+.Characteristics-area{
+    display: flex;
+    justify-content: space-between;
+}
 
+.Characteristics-list{
+    margin-left: 0rem;
+}
 
+.Characteristics-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0rem;
+}
 
+.Characteristics-area-icon{
+    display: flex;
+}
 
+.Characteristics-area-text__details{
+    font-size: 1.6rem;
+    padding-left: 3rem;
+}
 
+.fa-chair,
+.fa-toilet,
+.fa-house-user,
+.fa-money-bill,
+.fa-book,
+.fa-bed,
+.fa-compass,
+.fa-chart-area{
+    font-size:2rem;
+    color: black;
+}
 
+.Characteristics-area-number__details{
+    font-size: 1.6rem;
+    
+}
 
+.Characteristics-bed{
+    padding-left: 2.5rem;
+}
 
+.re__card-config{
+    display: none;
+}
 
+.main-content .apartment-list-item .apartment-list-item--text{
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
 
+.parameter-one-list{
+    margin-left: 0rem;
+    display: flex;
+    margin-bottom: 0rem;
+}
 
+.parameter-icon-list{
+    display: flex;
+    margin-left: 0rem;
+    float: right;
+}
 
+.parameter-one-list__items{
+   padding: 0 12rem;
+}
 
+.parameter-one-list__items p{
+    margin-bottom: 0rem;
+ }
 
+ .parameter-one-list__item p{
+    margin-bottom: 0rem;
+ }
 
+.parameter-icon-list__item{
+    font-size: 2rem;
+    cursor: pointer;
+}
 
+.fa-triangle-exclamation{
+   padding: 0 3rem;
+}
 
+.info-details-list{
+    margin-left: 0rem;
+}
 
+.project-all{
+    display: flex;
+}
 
+.project-title{
+    margin-bottom: 1rem;
+}
 
+.project-details-one__list{
+    margin-left: 0rem;
+    margin-bottom: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+}
 
+.fa-chevron-rights{
+    padding-top: 0.2rem;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+}
 
+.project-details-one__list-item{
+    display: flex;
+}
 
+.project-details-one__list-item--more{
+    color: red;
+}
 
+.keyword{
+    margin-top: 2rem;
+}
 
+.keyword-title-list{
+    margin-top: 1rem;
+    margin-left: 0rem;
+    display: flex;
+    justify-content: space-between;
+}
 
+.keyword-title-list__item{
+    border-radius: 1rem;
+    border: 1px solid #f1cdcd;
+    background: #f1cdcd;
+    padding: 0.2rem 2.2rem;
+}
 
+.keyword-title-list__item-link{
+    color: #000 !important;
+}
 
+.market,
+.suggestions{
+    margin-top: 2rem;
+}
 
+.market-title,
+.suggestions-title{
+    margin-bottom: 1rem;
+}
 
+.market-nav-list,
+.suggestions-nav-list{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    max-width: 100%;
+    overflow-x: auto;
+    margin-left: 0rem;
+}
 
+.market-nav-list__item,
+.suggestions-nav-list__item{
+    flex-shrink: 0;
+    margin-right: 1rem;
+    width: 32%;
+    border: 1px solid #e5d9d9;
+}
 
+.suggestions-nav-list__item-price{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 0rem;
+    color: #000;
+    font-weight: 600;
+}
 
+.market-nav-list__item-apartment,
+.suggestions-nav-list__item-apartment{
+    text-align: center;
+    font-size: 1rem;
+    color: #ff6565;
+}
 
+.suggestions-nav-list__item-address{
+    font-size: 1.2rem;
+    text-align: center;
+}
 
+.maps-title{
+    margin: 1rem 0rem;
+}
 
+.owner{
+    border: 1px solid#d5cbcba6;
+    border-radius: 0.6rem;
+}
 
+.owner-heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.2rem;
+}
 
+.owner-heading-title{
+    text-align: center;
+    background: #f2f2f2;
+    width: 36%;
+    border-radius: 50%;
+    padding: 2rem 0rem;
+    font-size: 3rem;
+}
 
+.owner-info-list{
+    margin-left: 0rem;
+}
 
+.owner-info-list__item{
+    text-align: center;
+}
 
+.owner-info-list__item{
+    margin: 0.6rem 0;
+}
 
+.owner-info-list__item-text{
+    color: #ff0000;
+}
 
+.owner-contact,
+.owner-number{
+    margin: 1rem 0rem;
+    display: flex;
+    justify-content: center;
+}
 
+.owner-number-phone{
+    display: flex;
+    justify-content: center;
+    background: rgb(137 118 137 / 70%);
+    border-radius: 1rem;
+    width: 55%;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.6rem 0.2rem;
+    color: #fff !important;
+}
 
+br{
+    display: none;
+}
 
+.owner-contact-text{
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    width: 55%;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid rgba(131, 108, 131, 0.267);
+    padding: 0.6rem 0.2rem;
+    color: #000 !important;
+}
+
+.bold-text{
+    font-weight: 600;
+}
+
+.luxury-apartment{
+    background-color: #f2f2f2;
+    margin-top: 2rem;
+    border-radius: 0.6rem;
+}
+
+.luxury-apartment-title{
+    color: #000;
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 1rem 0rem;
+    border-bottom: 1px dashed;
+}
+.luxury-apartment-title__list{
+    height: 22.5rem;
+}
+
+.luxury-apartment-title__list-item{
+    margin: 1rem 0;
+}
+
+.luxury-apartment-title__list-item--link{
+    color: #000 !important;
+}
+
+.exterior-details-list__item-text{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
 
 
 
